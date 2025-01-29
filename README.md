@@ -4,7 +4,7 @@ This is a project where we apply Mask Language Modeling (MLM) after using a prom
 in order to perform Natural Language Inference (NLI). The models used are BERT, RoBERTa, GPT2 and BART.
 The datasets used are SICK, SNLI and MNLI.
 
-The project is divided into 2 experiments. Firstly, it's a good idea to read the project report [here](./Project_report/Prompt_NLI_report.pdf): 
+The project is divided into 2 experiments. Firstly, it's a good idea to read the project report [here](./Project_report/Prompt_NLI_report.pdf). The first part is the main experiment, while the second is the analysis part. 
 
 ## How to use:
 
