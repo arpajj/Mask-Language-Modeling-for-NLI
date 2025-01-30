@@ -23,8 +23,8 @@ To use BERT, RoBERTa and BART model, run `python runner.py --model MODEL_NAME --
 Create the templates by running  `python create_templates.py` inside the directory [.../analysis/Helpers](./analysis/Helpers). 
 You will be asked to enter the name of the dataset; you will have to choose between `sick`, `snli` or `multi_nli`.
 
-Then, make the dataloaders by running `python make_dataloaders.py` (inside the directory [.../analysis/Helpers](./analysis/Helpers))
-and again the name of the dataset used. It also returns all the short and long dataloaders (see report).
+Then, make the dataloaders by running `python make_dataloaders.py` (inside the directory [.../analysis/Helpers](./analysis/Helpers)).
+Again, you will have to choose the name of the dataset used from `sick`, `snli` or `multi_nli`. This also returns all the short and long dataloaders (see report).
 
 Important tokens: For the extraction of tokens from the validation set run the "runner_valid.ipynb" and copy the tokens produced in the end
 for the 3 labels. Then paste them into the "runner.ipynb" so to run the section of "Important Tokens" for the test set.
