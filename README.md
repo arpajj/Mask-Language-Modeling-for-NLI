@@ -8,7 +8,7 @@ Firstly, it's a good idea to read the project report [here](./Project_report/Pro
 
 ## How to use:
 
-For starters clone the repository:  `git clone https://github.com/arpajj/Mask-Language-Modeling-for-NLI/tree/update`
+For starters clone the repository:  `git clone https://github.com/arpajj/Mask-Language-Modeling-for-NLI.git`
 
 ### A) Main Experiment:
 
