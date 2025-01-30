@@ -31,4 +31,4 @@ For extracting the important tokens from the validation set, run the notebook [r
 for the 3 labels. Then, paste them into the notebook [runner.ipynb](./analysis/runner.ipynb), so to run the section of "Important Tokens" for the test set (see report).
 
 #### B2 - Short & Long sequences:
-After making the dataloaders by using: `python make_dataloaders.py`, run the section "Short & Long Sequences" of the [runner.ipynb](./analysis/runner.ipynb) notebook.
+After making the dataloaders by using: `python make_dataloaders.py`, run the section "Short & Long Sequences" of the [runner.ipynb](./analysis/runner.ipynb) notebook (see report).
