@@ -82,7 +82,7 @@ if __name__ == '__main__':
 
     all_datasets = []
     # Select the path you want to store the templates
-    project_path = "C:/Users/admitos/Desktop/LoLa/Project/templates/" 
+    project_path = "path/to/store/the/templates" 
     for TEMPLATE_NUM in range(0,10):
         print("We are on template:", TEMPLATE_NUM+1)
         base_sentence = template_dict[TEMPLATE_NUM]
