@@ -30,5 +30,5 @@ Again, you will have to choose the name of the dataset used from `sick`, `snli` 
 For extracting the important tokens from the validation set, run the notebook [runner_valid.ipynb](./analysis/runner_valid.ipynb) and copy the produced tokens in the end
 for the 3 labels. Then, paste them into the notebook [runner.ipynb](./analysis/runner.ipynb), so to run the section of "Important Tokens" for the test set (see report).
 
-#### Short & Long sequences:
+#### B2 - Short & Long sequences:
 After making the dataloaders by using: `python make_dataloaders.py`, run the section "Short & Long Sequences" of the [runner.ipynb](./analysis/runner.ipynb) notebook.
