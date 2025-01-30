@@ -26,7 +26,8 @@ You will be asked to enter the name of the dataset; you will have to choose betw
 Then, make the dataloaders by running `python make_dataloaders.py` (inside the directory [.../analysis/Helpers](./analysis/Helpers)).
 Again, you will have to choose the name of the dataset used from `sick`, `snli` or `multi_nli`. This also returns all the short and long dataloaders (see report).
 
-Important tokens: For the extraction of tokens from the validation set run the "runner_valid.ipynb" and copy the tokens produced in the end
+#### B1 - Important Tokens: 
+For extracting the tokens from the validation set run the "runner_valid.ipynb" and copy the tokens produced in the end
 for the 3 labels. Then paste them into the "runner.ipynb" so to run the section of "Important Tokens" for the test set.
 
 Short & Long sequences: After the run of "make_dataloaders.py" run the section "Short & Long Sequences" of the "runner.ipynb".
