@@ -6,7 +6,7 @@ average_length_test_sets_sick = [25.24, 26.24, 25.24, 29.24, 31.24, 30.24, 35.24
 average_length_test_sets_mnli = [36.7, 37.7, 36.7, 40.7, 42.7, 41.7, 46.7, 42.7, 32.53, 32.53]
 
 # Selecte here the path that you have stored the templates
-project_path = "C:/Users/admitos/Desktop/LoLa/Project/templates/"
+project_path = "path/that/you/have/stored/the/templates"
 with open(project_path+'others/all_datasets.pkl', 'rb') as file:
     all_datasets_loaded = pickle.load(file)
 
