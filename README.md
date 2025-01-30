@@ -8,6 +8,8 @@ Firstly, it's a good idea to read the project report [here](./Project_report/Pro
 
 ## How to use:
 
+For starters clone the repository:  `git clone https://github.com/arpajj/Mask-Language-Modeling-for-NLI/update`
+
 ### A) Main Experiment:
 
 Create templates by using `python create_templates.py`.
@@ -17,6 +19,8 @@ To use GPT-2 model, run `python run_gpt2.py --model MODEL_NAME --dataset DATASET
 To use BERT, RoBERTa and BART model, run `python runner.py --model MODEL_NAME --dataset DATASET_NAME --template START`.
 
 ### B) Analysis Part: 
+
+Create the templates bu running  `python create_templates.py` inside the directory [/analysis/Helpers](./analysis/Helpers)
 
 To run the analysis part of the paper go the folder "analysis". Create templates by using "python create_templates.py" (inside the "Helpers"  
 folder) and entering the name of the dataset (sick, snli, multi_nli).
