@@ -8,7 +8,7 @@ Firstly, it's a good idea to read the project report [here](./Project_report/Pro
 
 ## How to use:
 
-For starters clone the repository:  `git clone https://github.com/arpajj/Mask-Language-Modeling-for-NLI/update`
+For starters clone the repository:  `git clone https://github.com/arpajj/Mask-Language-Modeling-for-NLI/tree/update`
 
 ### A) Main Experiment:
 
@@ -20,10 +20,8 @@ To use BERT, RoBERTa and BART model, run `python runner.py --model MODEL_NAME --
 
 ### B) Analysis Part: 
 
-Create the templates bu running  `python create_templates.py` inside the directory [/analysis/Helpers](./analysis/Helpers)
-
-To run the analysis part of the paper go the folder "analysis". Create templates by using "python create_templates.py" (inside the "Helpers"  
-folder) and entering the name of the dataset (sick, snli, multi_nli).
+Create the templates bu running  `python create_templates.py` inside the directory [.../analysis/Helpers](./analysis/Helpers). 
+You will be asked to enter the name of the dataset; you will have to choose between `sick`, `snli` or `multi_nli`.
 
 Make the dataloaders my running "python make_dataloaders.py" (inside the "Helpers" folder) and again the name of the dataset used. It also returns all the short and long dataloaders
 
